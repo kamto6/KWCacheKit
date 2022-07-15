@@ -7,69 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B35331DA0DE9214650C4A6BF36E1086 /* KWCacheKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DCFD76EE3926EFBF3E21600C7852B4 /* KWCacheKit-dummy.m */; };
-		0C15FDE91EB41C8DF18DC95B61EFF190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0E61C6EC024F887C33FCB0A158538234 /* KWCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CEE98F043597F5F32ED94D5E69B2C /* KWCacheManager.swift */; };
 		0E7B0094BC393B150EF990074CB948BE /* Pods-KWCacheKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 929F9A52D0B2702B3D8676B5E0489404 /* Pods-KWCacheKit_Tests-dummy.m */; };
-		2CBD7BADE994F4BFF353F06EDAF144CC /* KWCacheKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B782E1BB82747A91048A4B4F1CC213C8 /* KWCacheKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28FB0B837E55D51D2EAB12DDF69C62F3 /* KWCacheType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD2E3FB519159BFC49FE621EFBE21E /* KWCacheType.swift */; };
+		5260960A3D822F347F1CCF1211D3EF8C /* KWCacheKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8923BC37AD289F60D6C590D24F048FFB /* KWCacheKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		670E2143C570F473AAF07F2C2DCED2D8 /* Pods-KWCacheKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E408581D139713EDABDEEE62CDB841 /* Pods-KWCacheKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		785EDF8325AF9C17D39A40220D91AD38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9BF23250DEA2037E640FDBB574729D1C /* Pods-KWCacheKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D64BDF7773869439473B1EB9DBE2A1A9 /* Pods-KWCacheKit_Example-dummy.m */; };
+		A05CD975350E2AC3E00CF78C0E30D8E8 /* KWCacheKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB39EA87CE25D6459F9DABBA5CB3F6C /* KWCacheKit-dummy.m */; };
 		AA84BBF61D88375B37275EAD0BB4A153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF229ECFE46DCF6CF6E4E1AA4F045C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D40CA3E8119B4EE66A0DBBE8FB692554 /* Pods-KWCacheKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CD0E63D0514740E77BEBB57E2FA481 /* Pods-KWCacheKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3D99EE997E8DD45E57AC0989F22AEBA /* KWCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC3FE7D008BB666B8E69F295CD2C0C /* KWCacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		47959E2CC07DF1E8EC56697332B79AA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 773BF46E9EF657017D85B03B59BAE343;
-			remoteInfo = "Pods-KWCacheKit_Example";
-		};
-		9904BE100ECFBD8E3ED6C141AA74DE18 /* PBXContainerItemProxy */ = {
+		66A85F83473E8EA73B793D9E11067292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2797F415D19AAE391ADA8EBB09324AF5;
 			remoteInfo = KWCacheKit;
 		};
+		FB50C8B31AC19072AD9E94C57251F0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 773BF46E9EF657017D85B03B59BAE343;
+			remoteInfo = "Pods-KWCacheKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01E408581D139713EDABDEEE62CDB841 /* Pods-KWCacheKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWCacheKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0FBD2E3FB519159BFC49FE621EFBE21E /* KWCacheType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KWCacheType.swift; sourceTree = "<group>"; };
 		143F85A7BB5EF56D9E100BA86E14494C /* Pods-KWCacheKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWCacheKit_Example.modulemap"; sourceTree = "<group>"; };
 		15582779D57421D700ED0B87535FF0E9 /* Pods-KWCacheKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KWCacheKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		23F9D290243D406708F7ECF63B696864 /* KWCacheKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWCacheKit-prefix.pch"; sourceTree = "<group>"; };
 		313AC3EC1414A351246145237A4F244D /* Pods-KWCacheKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWCacheKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32D203E151A858B920835A524349BBEC /* KWCacheKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KWCacheKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		348516F5E1DD10B320A3BE8E44242EA0 /* Pods-KWCacheKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWCacheKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		36EB4B1657F66F6DE4053C941A3A0123 /* Pods-KWCacheKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWCacheKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4144E0469BE4CF3D4E79E0520DB94311 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		39296746CCFA001C11471D0B4DD850D9 /* KWCacheKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KWCacheKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3AB39EA87CE25D6459F9DABBA5CB3F6C /* KWCacheKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KWCacheKit-dummy.m"; sourceTree = "<group>"; };
 		523A2002C15936299A6243CC24F8423A /* Pods-KWCacheKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KWCacheKit_Example"; path = Pods_KWCacheKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528F4A28EFFDEB65BEBB1F8E674C25D3 /* KWCacheKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KWCacheKit-Info.plist"; sourceTree = "<group>"; };
 		58C1FC5FF91C5010433BE3207B45929F /* Pods-KWCacheKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWCacheKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		63CD0E63D0514740E77BEBB57E2FA481 /* Pods-KWCacheKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWCacheKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		69DD7373A79090B251997C1E49FCBEFA /* KWCacheKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWCacheKit.release.xcconfig; sourceTree = "<group>"; };
-		6C6ED832C53128E85FD3EF520A0D75F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		71DCFD76EE3926EFBF3E21600C7852B4 /* KWCacheKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KWCacheKit-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7592166DE3E6A979AEC6D6B8909A8A8D /* Pods-KWCacheKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KWCacheKit_Tests.modulemap"; sourceTree = "<group>"; };
+		75FC8DC8AF60AF9A43C8D8ADD85EBC80 /* KWCacheKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWCacheKit-prefix.pch"; sourceTree = "<group>"; };
 		7C4C9F4038BC6B466769485D0DA946FB /* Pods-KWCacheKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWCacheKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		8560E69D39D5CB977FE310D4363B0ACA /* KWCacheKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWCacheKit.release.xcconfig; sourceTree = "<group>"; };
+		8923BC37AD289F60D6C590D24F048FFB /* KWCacheKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWCacheKit-umbrella.h"; sourceTree = "<group>"; };
+		8A0A213FE8BD9BDBB61A54D0B6AC1A38 /* KWCacheKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWCacheKit.debug.xcconfig; sourceTree = "<group>"; };
 		929F9A52D0B2702B3D8676B5E0489404 /* Pods-KWCacheKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWCacheKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		952C45F2FADF7EB35FCF9C6F6FA6BE24 /* KWCacheKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KWCacheKit.modulemap; sourceTree = "<group>"; };
+		99C0DF6631F7D59C7FFEA9F93C371634 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A89F991AB935F4B5FA8F7801F656B2B8 /* KWCacheKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KWCacheKit-Info.plist"; sourceTree = "<group>"; };
+		A757F5F10F156A31503E67FDE6F39522 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A9A6DC1958D48AC3623BE279E95F6901 /* Pods-KWCacheKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWCacheKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AA4A7811A40813135BF93EC4F0B24E87 /* KWCacheKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWCacheKit.debug.xcconfig; sourceTree = "<group>"; };
-		B2A24EF31F473EA62AC78AC0FBBFF57B /* KWCacheKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KWCacheKit.modulemap; sourceTree = "<group>"; };
 		B59A26E8D422574798D47FB77C4186C7 /* Pods-KWCacheKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWCacheKit_Example-Info.plist"; sourceTree = "<group>"; };
-		B782E1BB82747A91048A4B4F1CC213C8 /* KWCacheKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWCacheKit-umbrella.h"; sourceTree = "<group>"; };
 		B9EF7F07797148AE602AA02493639B45 /* KWCacheKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWCacheKit; path = KWCacheKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9CFC820A9015EE162C8D71FEDA6A93 /* Pods-KWCacheKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWCacheKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9F2E72C169A1F3A6E1E36C8F5DE4843 /* Pods-KWCacheKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KWCacheKit_Tests"; path = Pods_KWCacheKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D519FA681D647C538034CD169D2D9947 /* Pods-KWCacheKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWCacheKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D64BDF7773869439473B1EB9DBE2A1A9 /* Pods-KWCacheKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWCacheKit_Example-dummy.m"; sourceTree = "<group>"; };
 		E19BE277A8E70467D5D604E91CD69B79 /* Pods-KWCacheKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWCacheKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E79CEE98F043597F5F32ED94D5E69B2C /* KWCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KWCacheManager.swift; path = KWCacheKit/Classes/KWCacheManager.swift; sourceTree = "<group>"; };
+		EDFC3FE7D008BB666B8E69F295CD2C0C /* KWCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KWCacheManager.swift; path = KWCacheKit/Classes/KWCacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +83,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2044752465449BC27336C6CADA3549D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C15FDE91EB41C8DF18DC95B61EFF190 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C0B4B49B6DEF75D99DDB33A2758A6E2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,45 +91,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE21C0DCC317E236415A454F506C26C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF229ECFE46DCF6CF6E4E1AA4F045C54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A035A2347782A9E9AD482921459B4EE /* KWCacheKit */ = {
-			isa = PBXGroup;
-			children = (
-				E79CEE98F043597F5F32ED94D5E69B2C /* KWCacheManager.swift */,
-				0E2C7BA4EF0273DBCE7B7A13A0129731 /* Pod */,
-				29770972EE111E639E4729E2644E87D0 /* Support Files */,
-			);
-			name = KWCacheKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		0E2C7BA4EF0273DBCE7B7A13A0129731 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				32D203E151A858B920835A524349BBEC /* KWCacheKit.podspec */,
-				6C6ED832C53128E85FD3EF520A0D75F9 /* LICENSE */,
-				4144E0469BE4CF3D4E79E0520DB94311 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		29770972EE111E639E4729E2644E87D0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2A24EF31F473EA62AC78AC0FBBFF57B /* KWCacheKit.modulemap */,
-				71DCFD76EE3926EFBF3E21600C7852B4 /* KWCacheKit-dummy.m */,
-				A89F991AB935F4B5FA8F7801F656B2B8 /* KWCacheKit-Info.plist */,
-				23F9D290243D406708F7ECF63B696864 /* KWCacheKit-prefix.pch */,
-				B782E1BB82747A91048A4B4F1CC213C8 /* KWCacheKit-umbrella.h */,
-				AA4A7811A40813135BF93EC4F0B24E87 /* KWCacheKit.debug.xcconfig */,
-				69DD7373A79090B251997C1E49FCBEFA /* KWCacheKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KWCacheKit";
-			sourceTree = "<group>";
-		};
 		2F78061C267EEDDE53DC07C378655808 /* Pods-KWCacheKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +116,21 @@
 			);
 			name = "Pods-KWCacheKit_Tests";
 			path = "Target Support Files/Pods-KWCacheKit_Tests";
+			sourceTree = "<group>";
+		};
+		42E916F9C2B01EF30911606127FF3A7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952C45F2FADF7EB35FCF9C6F6FA6BE24 /* KWCacheKit.modulemap */,
+				3AB39EA87CE25D6459F9DABBA5CB3F6C /* KWCacheKit-dummy.m */,
+				528F4A28EFFDEB65BEBB1F8E674C25D3 /* KWCacheKit-Info.plist */,
+				75FC8DC8AF60AF9A43C8D8ADD85EBC80 /* KWCacheKit-prefix.pch */,
+				8923BC37AD289F60D6C590D24F048FFB /* KWCacheKit-umbrella.h */,
+				8A0A213FE8BD9BDBB61A54D0B6AC1A38 /* KWCacheKit.debug.xcconfig */,
+				8560E69D39D5CB977FE310D4363B0ACA /* KWCacheKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KWCacheKit";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -169,12 +150,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B23E3924BDCF4EB5C9817857225AFFBA /* Development Pods */ = {
+		7F8649B17C773D356CFAB17956AE0FB0 /* KWCacheKit */ = {
 			isa = PBXGroup;
 			children = (
-				0A035A2347782A9E9AD482921459B4EE /* KWCacheKit */,
+				EDFC3FE7D008BB666B8E69F295CD2C0C /* KWCacheManager.swift */,
+				B96D77E90F15AF87B23228614AEDE2A3 /* Classes */,
+				D994DE3C3F5F68502459E62BD29E1B87 /* Pod */,
+				42E916F9C2B01EF30911606127FF3A7D /* Support Files */,
 			);
-			name = "Development Pods";
+			name = KWCacheKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B96D77E90F15AF87B23228614AEDE2A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FBD2E3FB519159BFC49FE621EFBE21E /* KWCacheType.swift */,
+			);
+			name = Classes;
+			path = KWCacheKit/Classes/Classes;
 			sourceTree = "<group>";
 		};
 		BF0B9F7E8B13308EAD06F74F8F3A9324 /* Products */ = {
@@ -191,7 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B23E3924BDCF4EB5C9817857225AFFBA /* Development Pods */,
+				E1433B9E4F6D711D6953B223D2F4A35A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BF0B9F7E8B13308EAD06F74F8F3A9324 /* Products */,
 				6780D29704E2D010D8FB194C546D427E /* Targets Support Files */,
@@ -223,6 +217,24 @@
 			path = "Target Support Files/Pods-KWCacheKit_Example";
 			sourceTree = "<group>";
 		};
+		D994DE3C3F5F68502459E62BD29E1B87 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39296746CCFA001C11471D0B4DD850D9 /* KWCacheKit.podspec */,
+				A757F5F10F156A31503E67FDE6F39522 /* LICENSE */,
+				99C0DF6631F7D59C7FFEA9F93C371634 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E1433B9E4F6D711D6953B223D2F4A35A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F8649B17C773D356CFAB17956AE0FB0 /* KWCacheKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,6 +246,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63816DF03DC6A69448830D10EEAD1D28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5260960A3D822F347F1CCF1211D3EF8C /* KWCacheKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76FCB0CD2E9CC505FA9A91F9E27B8FCC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,25 +262,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8F5EB74579A0DA5BBD1E2F9CBB8B81E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CBD7BADE994F4BFF353F06EDAF144CC /* KWCacheKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2797F415D19AAE391ADA8EBB09324AF5 /* KWCacheKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7274AAD3E8088B16432FCF9279B95C6 /* Build configuration list for PBXNativeTarget "KWCacheKit" */;
+			buildConfigurationList = CDEDDD736C8E3EEB6A2F15EB9019425C /* Build configuration list for PBXNativeTarget "KWCacheKit" */;
 			buildPhases = (
-				B8F5EB74579A0DA5BBD1E2F9CBB8B81E /* Headers */,
-				3FDFBE0250F09B5CC16FAB5D8DD446CD /* Sources */,
-				A2044752465449BC27336C6CADA3549D /* Frameworks */,
-				74BD5919D9DA5192A8319849CA053131 /* Resources */,
+				63816DF03DC6A69448830D10EEAD1D28 /* Headers */,
+				F0532808D549139C4C16F655E08AAC62 /* Sources */,
+				DE21C0DCC317E236415A454F506C26C7 /* Frameworks */,
+				932E51B12CA776E07FE40E07958A4839 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CDE2CD6E26F1BF37A264C238A19CF593 /* PBXTargetDependency */,
+				FAB83C4540FCEFF0D845B478E7887B4A /* PBXTargetDependency */,
 			);
 			name = "Pods-KWCacheKit_Example";
 			productName = Pods_KWCacheKit_Example;
@@ -302,7 +314,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A73F32AE1648206F53EB689FABE9414B /* PBXTargetDependency */,
+				F304D61725FB606178A542274FBD8F3C /* PBXTargetDependency */,
 			);
 			name = "Pods-KWCacheKit_Tests";
 			productName = Pods_KWCacheKit_Tests;
@@ -346,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74BD5919D9DA5192A8319849CA053131 /* Resources */ = {
+		932E51B12CA776E07FE40E07958A4839 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,15 +375,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FDFBE0250F09B5CC16FAB5D8DD446CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B35331DA0DE9214650C4A6BF36E1086 /* KWCacheKit-dummy.m in Sources */,
-				0E61C6EC024F887C33FCB0A158538234 /* KWCacheManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AE736614A0813F04BECD99C90677DF83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,56 +391,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0532808D549139C4C16F655E08AAC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05CD975350E2AC3E00CF78C0E30D8E8 /* KWCacheKit-dummy.m in Sources */,
+				F3D99EE997E8DD45E57AC0989F22AEBA /* KWCacheManager.swift in Sources */,
+				28FB0B837E55D51D2EAB12DDF69C62F3 /* KWCacheType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A73F32AE1648206F53EB689FABE9414B /* PBXTargetDependency */ = {
+		F304D61725FB606178A542274FBD8F3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KWCacheKit_Example";
 			target = 773BF46E9EF657017D85B03B59BAE343 /* Pods-KWCacheKit_Example */;
-			targetProxy = 47959E2CC07DF1E8EC56697332B79AA3 /* PBXContainerItemProxy */;
+			targetProxy = FB50C8B31AC19072AD9E94C57251F0B2 /* PBXContainerItemProxy */;
 		};
-		CDE2CD6E26F1BF37A264C238A19CF593 /* PBXTargetDependency */ = {
+		FAB83C4540FCEFF0D845B478E7887B4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KWCacheKit;
 			target = 2797F415D19AAE391ADA8EBB09324AF5 /* KWCacheKit */;
-			targetProxy = 9904BE100ECFBD8E3ED6C141AA74DE18 /* PBXContainerItemProxy */;
+			targetProxy = 66A85F83473E8EA73B793D9E11067292 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07C1CF193FF68F4C7F0B5C54A34466E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69DD7373A79090B251997C1E49FCBEFA /* KWCacheKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KWCacheKit/KWCacheKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KWCacheKit/KWCacheKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KWCacheKit/KWCacheKit.modulemap";
-				PRODUCT_MODULE_NAME = KWCacheKit;
-				PRODUCT_NAME = KWCacheKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		11D4D1E23D5B118DD9A0E8E835A3F02B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF9CFC820A9015EE162C8D71FEDA6A93 /* Pods-KWCacheKit_Tests.debug.xcconfig */;
@@ -504,37 +485,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5BDFCCB7043578D6618D246C7181B349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA4A7811A40813135BF93EC4F0B24E87 /* KWCacheKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KWCacheKit/KWCacheKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KWCacheKit/KWCacheKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KWCacheKit/KWCacheKit.modulemap";
-				PRODUCT_MODULE_NAME = KWCacheKit;
-				PRODUCT_NAME = KWCacheKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		74B995357B04149AD1B26257AC40EF75 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -631,6 +581,37 @@
 			};
 			name = Release;
 		};
+		806141EB87025B46378F41C5CE5E4AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0A213FE8BD9BDBB61A54D0B6AC1A38 /* KWCacheKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KWCacheKit/KWCacheKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KWCacheKit/KWCacheKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KWCacheKit/KWCacheKit.modulemap";
+				PRODUCT_MODULE_NAME = KWCacheKit;
+				PRODUCT_NAME = KWCacheKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -697,6 +678,38 @@
 			};
 			name = Debug;
 		};
+		D938F83305F492DA8B79FAD67F200731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8560E69D39D5CB977FE310D4363B0ACA /* KWCacheKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KWCacheKit/KWCacheKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KWCacheKit/KWCacheKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KWCacheKit/KWCacheKit.modulemap";
+				PRODUCT_MODULE_NAME = KWCacheKit;
+				PRODUCT_NAME = KWCacheKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E83E9B6BD66F25A31A7D639839FC6C4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9A6DC1958D48AC3623BE279E95F6901 /* Pods-KWCacheKit_Tests.release.xcconfig */;
@@ -761,11 +774,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7274AAD3E8088B16432FCF9279B95C6 /* Build configuration list for PBXNativeTarget "KWCacheKit" */ = {
+		CDEDDD736C8E3EEB6A2F15EB9019425C /* Build configuration list for PBXNativeTarget "KWCacheKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BDFCCB7043578D6618D246C7181B349 /* Debug */,
-				07C1CF193FF68F4C7F0B5C54A34466E4 /* Release */,
+				806141EB87025B46378F41C5CE5E4AA2 /* Debug */,
+				D938F83305F492DA8B79FAD67F200731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
