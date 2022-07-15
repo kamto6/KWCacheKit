@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		00B0F0C3B8EADB20B6E4F850 /* Pods-KWCacheKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWCacheKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-KWCacheKit_Tests/Pods-KWCacheKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3C8C880921CD1CAF889F11C2 /* Pods-KWCacheKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWCacheKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-KWCacheKit_Example/Pods-KWCacheKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4684A406A6C900A10D195458 /* KWCacheKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KWCacheKit.podspec; path = ../KWCacheKit.podspec; sourceTree = "<group>"; };
-		46FB3628980BA00E99447A8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4684A406A6C900A10D195458 /* KWCacheKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KWCacheKit.podspec; path = ../KWCacheKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46FB3628980BA00E99447A8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KWCacheKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWCacheKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		672BBC11B7B91602DA9D8E79 /* Pods_KWCacheKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWCacheKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7761FCD4E4E3C3C18161E868 /* Pods-KWCacheKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWCacheKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KWCacheKit_Tests/Pods-KWCacheKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A210EFD0C6D8399204EFC209 /* Pods_KWCacheKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWCacheKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA9E55B09D5209F70DE748CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA9E55B09D5209F70DE748CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DBBE504D546E7B638228DE3F /* Pods-KWCacheKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWCacheKit_Example.release.xcconfig"; path = "Target Support Files/Pods-KWCacheKit_Example/Pods-KWCacheKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				7761FCD4E4E3C3C18161E868 /* Pods-KWCacheKit_Tests.debug.xcconfig */,
 				00B0F0C3B8EADB20B6E4F850 /* Pods-KWCacheKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,10 +269,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KWCacheKit_Example/Pods-KWCacheKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/KWCacheKit/KWCacheKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWCacheKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,16 +1,44 @@
 PODS:
-  - KWCacheKit (0.1.2)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - KWCacheKit (0.1.2):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.3)
   - KWCacheKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   KWCacheKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KWCacheKit: 72ffd40669633f3c3425fa1839351a1f40da17dd
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  KWCacheKit: 7c2d839a7f2a298b7634c0b3ac7cc24a18623d12
 
-PODFILE CHECKSUM: 1b2175359ba7c975b41d6d8ffa3cd17451d9e787
+PODFILE CHECKSUM: fd67bea81d703574516737bf9b896f631f59822b
 
 COCOAPODS: 1.11.2

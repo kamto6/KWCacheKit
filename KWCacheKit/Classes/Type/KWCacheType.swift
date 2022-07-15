@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// 目录名称不能以Classes命名
 enum KWCacheType {
     
     case one
