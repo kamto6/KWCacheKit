@@ -1,0 +1,22 @@
+{
+  "name": "KWCacheKit",
+  "version": "0.1.0",
+  "summary": "A short description of KWCacheKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kwjie5566@163.com/KWCacheKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kwjie5566@163.com": "jiekangwei@erwan365.com"
+  },
+  "source": {
+    "git": "https://github.com/kwjie5566@163.com/KWCacheKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KWCacheKit/Classes/**/*"
+}

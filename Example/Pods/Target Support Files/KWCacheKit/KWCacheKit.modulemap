@@ -1,0 +1,6 @@
+framework module KWCacheKit {
+  umbrella header "KWCacheKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

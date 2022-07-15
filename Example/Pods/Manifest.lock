@@ -1,0 +1,16 @@
+PODS:
+  - KWCacheKit (0.1.0)
+
+DEPENDENCIES:
+  - KWCacheKit (from `../`)
+
+EXTERNAL SOURCES:
+  KWCacheKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KWCacheKit: 091778d33f28ebf4ea7c83dd2f3320ab14531c12
+
+PODFILE CHECKSUM: 1b2175359ba7c975b41d6d8ffa3cd17451d9e787
+
+COCOAPODS: 1.11.2
