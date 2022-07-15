@@ -1,5 +1,5 @@
 PODS:
-  - KWCacheKit (0.1.1)
+  - KWCacheKit (0.1.2)
 
 DEPENDENCIES:
   - KWCacheKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KWCacheKit: 1fb39871ecc900abaf3c74ddc0aa3feecc504336
+  KWCacheKit: 72ffd40669633f3c3425fa1839351a1f40da17dd
 
 PODFILE CHECKSUM: 1b2175359ba7c975b41d6d8ffa3cd17451d9e787
 
