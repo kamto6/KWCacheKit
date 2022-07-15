@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'KWCacheKit_Example' do
+  pod 'KWCacheKit', :path => '../'
+
+  target 'KWCacheKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
